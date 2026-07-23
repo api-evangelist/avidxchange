@@ -1,8 +1,15 @@
 aid: avidxchange
 name: AvidXchange
-description: 'AvidXchange is a company surfaced as a portfolio company of bain-capital-ventures, qed-investors,
-  sapphire-ventures and added to the API Evangelist network as a stub for enrichment. Sector: fintech.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'AvidXchange is a fintech provider of AI-powered accounts payable (AP)
+  and payment automation software for middle-market businesses. Its platform digitizes
+  invoice capture, approval workflows, purchase orders, and supplier payments, integrating
+  with more than 220 accounting and ERP systems and connecting buyers to a large supplier
+  network for paperless, straight-through AP processing. AvidXchange publishes a partner
+  and integration developer portal (ReadMe-hosted) for connecting ERP systems and
+  building against its payment and invoice automation platform; the API reference is
+  gated behind partner login. This profile was surfaced as a portfolio company of
+  Bain Capital Ventures, QED Investors, and Sapphire Ventures and enriched by the API
+  Evangelist pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/avidxchange/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +19,30 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://files.readme.io/a98d380d6b8afc3370c66a4bd00501cd5753fe6f70514eef58b7b6a610991985-small-avid-logo-blue-qi5xlb2zbac5uurrv7st1jyzt40kdjgu9w7ytsjeog.png
 tags:
 - Company
 - Fintech
+- Accounts Payable
+- Payments
+- Invoice Automation
+- AP Automation
+- B2B Payments
+- Financial Operations
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +52,34 @@ maintainers:
 common:
 - type: Website
   url: https://www.avidxchange.com/
+- type: DeveloperPortal
+  url: https://developer.avidxchange.com/
+- type: Documentation
+  url: https://developer.avidxchange.com/
+- type: Support
+  url: https://www.avidxchange.com/customer-supplier-support/
+- type: Blog
+  url: https://www.avidxchange.com/blog/
+- type: SignUp
+  url: https://www.avidxchange.com/login/
+- type: Login
+  url: https://www.avidxchange.com/login/
+- type: PrivacyPolicy
+  url: https://www.avidxchange.com/privacy-notice/
+- type: TermsOfService
+  url: https://www.avidxchange.com/terms-of-use/
+- type: Compliance
+  url: https://trust.avidxchange.com/
+- type: Security
+  url: https://trust.avidxchange.com/
+- type: TrustCenter
+  url: security/avidxchange-trust-center.yml
+- type: DomainSecurity
+  url: security/avidxchange-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/avidxchange-vulnerability-disclosure.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

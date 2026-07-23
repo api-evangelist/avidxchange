@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.avidxchange.com/
+url: https://trust.avidxchange.com/
+certifications:
+- SOC 1 Type 2
+- SOC 2 Type 2
+- PCI DSS v4.0.0
+- NIST CSF
+platform: SafeBase
+responsible_disclosure: responsibledisclosure@avidxchange.com
+evidence:
+- source: https://trust.avidxchange.com/
+  keywords:
+  - soc 1 type 2
+  - soc 2 type 2
+  - pci dss v4.0.0
+  - nist csf
+  - trust center
+  - responsible disclosure
