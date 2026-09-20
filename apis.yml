@@ -45,6 +45,9 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 image: https://files.readme.io/a98d380d6b8afc3370c66a4bd00501cd5753fe6f70514eef58b7b6a610991985-small-avid-logo-blue-qi5xlb2zbac5uurrv7st1jyzt40kdjgu9w7ytsjeog.png
+x-docs-platform: readme
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-19
 tags:
 - Company
 - Fintech
