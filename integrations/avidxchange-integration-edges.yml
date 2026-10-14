@@ -3,6 +3,7 @@ method: searched
 checked:
 - appfolio/integrations/appfolio-integration-edges.yml
 - https://mpl-pusa01.app.blackbaud.net/mktpl/v1/public/marketplace/applications
+- procore/integrations/procore-integration-edges.yml
 source:
 - appfolio/integrations/appfolio-integration-edges.yml
 edges:
@@ -47,4 +48,21 @@ edges:
   detected: '2026-10-14'
   detected_by: mirror-platform-listings.py
   category: Maintenance
+- partner_name: Procore (own)
+  partner: procore
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.procore.com/apps/avid-connector
+  mirror_of: procore/integrations/procore-integration-edges.yml
+  apps:
+  - Avid Connector
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Accounting
 marketplace_apps: []
