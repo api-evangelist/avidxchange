@@ -2,9 +2,35 @@ generated: '2026-10-14'
 method: searched
 checked:
 - appfolio/integrations/appfolio-integration-edges.yml
+- https://mpl-pusa01.app.blackbaud.net/mktpl/v1/public/marketplace/applications
 source:
 - appfolio/integrations/appfolio-integration-edges.yml
 edges:
+- partner_name: Blackbaud (Blackbaud Marketplace)
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  partner_note: Blackbaud has no all/* repo (catalog gap); publisher side only
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: blackbaud-marketplace
+  evidence: https://app.blackbaud.com/marketplace/applications/36d9aeca-6f16-4af9-9203-d354a03ce688
+  store: https://app.blackbaud.com/marketplace
+  store_api: https://mpl-pusa01.app.blackbaud.net/mktpl/v1/public/marketplace/applications
+  publisher: AvidXchange
+  publisher_match: domain
+  publisher_domain: avidxchange.com
+  apps:
+  - AvidXchange
+  listing_count: 1
+  compatible_solutions:
+  - fenxt
+  badges:
+  - Reviewed by Blackbaud
+  detected_by: sweep-nonprofit.py
+  detected: '2026-10-14'
 - partner_name: AppFolio (appfolio-stack)
   partner: appfolio
   partner_match: mirror
@@ -21,3 +47,4 @@ edges:
   detected: '2026-10-14'
   detected_by: mirror-platform-listings.py
   category: Maintenance
+marketplace_apps: []
